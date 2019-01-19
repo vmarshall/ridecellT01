@@ -26,7 +26,7 @@ SECRET_KEY = '^k&2j!4xx_g3xhqumi#xjdvuxq3!k#^57#h2rm#b%!tpo$gqwo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -164,7 +164,7 @@ DATABASES = {
 }
 
 ALLOWED_HOSTS = [
-    '0.0.0.0'
+    '0.0.0.0', '127.0.0.1'
 ]
 
 STATIC_ROOT = str(ROOT_DIR('staticfiles'))

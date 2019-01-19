@@ -1,32 +1,27 @@
+
+
 # -*- coding: utf-8 -*-
 from django.contrib import admin
+from django.contrib.gis.admin import OSMGeoAdmin
 
-from .models import Car, ParkingSpot
-
-
-@admin.register(Car)
-class CarAdmin(admin.ModelAdmin):
-    list_display = ('id', 'driver', 'location')
-    list_filter = ('driver',)
+from .models import ParkingSpot
 
 
 @admin.register(ParkingSpot)
-class ParkingSpotAdmin(admin.ModelAdmin):
+class ParkingSpotAdmin(OSMGeoAdmin):
     list_display = (
         'id',
         'rcpid',
         'owner',
-        'available',
+        'reserved',
         'label',
-        'lon',
-        'lat',
-        'location',
+        'point',
         'created_timestamp',
         'modified_timestamp',
     )
     list_filter = (
         'owner',
-        'available',
+        'reserved',
         'created_timestamp',
         'modified_timestamp',
     )

@@ -1,0 +1,81 @@
+[
+  {
+    "model": "parking.parkingspot",
+    "pk": 1,
+    "fields": {
+      "rcpid": "9f3da7b1-bb7f-44d5-b32b-9a7a8b1d1a19",
+      "owner": null,
+      "available": false,
+      "label": "South Park, San Francisco, CA, USA",
+      "point": "SRID=4326;POINT (-122.393990 37.781555)",
+      "created_timestamp": "2019-01-19T05:17:14.049Z",
+      "modified_timestamp": "2019-01-19T05:17:14.049Z"
+    }
+  },
+  {
+    "model": "parking.parkingspot",
+    "pk": 2,
+    "fields": {
+      "rcpid": "1e4c761c-1bb1-11e9-a6f6-87377f1d5a58",
+      "owner": null,
+      "available": false,
+      "label": "Chinatown, San Francisco, San Francisco, CA, USA",
+      "point": "SRID=4326;POINT (-122.404331716 37.790163506)",
+      "created_timestamp": "2019-01-19T05:17:14.049Z",
+      "modified_timestamp": "2019-01-19T05:17:14.049Z"
+    }
+  },
+
+  {
+    "model": "parking.parkingspot",
+    "pk": 3,
+    "fields": {
+      "rcpid": "1667a746-1bb1-11e9-b40c-c7ff8929c9cd",
+      "owner": null,
+      "available": false,
+      "label": "Hunters Point, San Francisco, San Francisco, CA, USA",
+      "point": "SRID=4326;POINT (-122.372246 37.730537)",
+      "created_timestamp": "2019-01-19T05:17:14.049Z",
+      "modified_timestamp": "2019-01-19T05:17:14.049Z"
+    }
+  },
+  {
+    "model": "parking.parkingspot",
+    "pk": 4,
+    "fields": {
+      "rcpid": "9f3da7b1-bb7f-44d5-b32b-9a7a8b1d1a19",
+      "owner": null,
+      "available": false,
+      "label": "Transamerica Building, San Francisco, San Francisco, CA, USA",
+      "point": "SRID=4326;POINT (-122.405411 37.805679)",
+      "created_timestamp": "2019-01-19T05:17:14.049Z",
+      "modified_timestamp": "2019-01-19T05:17:14.049Z"
+    }
+  },
+  {
+    "model": "parking.parkingspot",
+    "pk": 5,
+    "fields": {
+      "rcpid": "9f3da7b1-bb7f-44d5-b32b-9a7a8b1d1a19",
+      "owner": null,
+      "available": false,
+      "label": "AT&T Park, San Francisco, San Francisco, CA, USA",
+      "point": "SRID=4326;POINT (-122.390617 37.778419)",
+      "created_timestamp": "2019-01-19T05:17:14.049Z",
+      "modified_timestamp": "2019-01-19T05:17:14.049Z"
+    }
+  },
+  {
+    "model": "parking.parkingspot",
+    "pk": 6,
+    "fields": {
+      "rcpid": "9f3da7b1-bb7f-44d5-b32b-9a7a8b1d1a19",
+      "owner": null,
+      "available": false,
+      "label": "Bernal Heights Park, San Francisco, San Francisco, CA, USA",
+      "point": "SRID=4326;POINT (-122.412220 37.743590)",
+      "created_timestamp": "2019-01-19T05:17:14.049Z",
+      "modified_timestamp": "2019-01-19T05:17:14.049Z"
+    }
+  }
+]

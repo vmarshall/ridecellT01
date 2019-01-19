@@ -28,18 +28,16 @@ simple_router = DefaultRouter()
 simple_router.register(r'parking', parking_views.ParkingSpotViewSet)
 simple_router.register(r'users', parking_views.UserViewSet)
 
-# simple_router.register(r'search', parking_views.SearchByRadiusList)
-# simple_router.register(r'groups', parking_views.GroupViewSet)
 
 swagger_view = get_swagger_view(title='Ridecell API (swagger)')
 schema_view = get_schema_view(title='Ridecell API (core)')
 
 urlpatterns = [
-    path('v1/api/', include(simple_router.urls)),
+    path('api/v1/', include(simple_router.urls)),
+    url(r'^api/v1/docs/', include_docs_urls(title='Ridecell Parking API')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('admin/', admin.site.urls),
-    url(r'^docs/', include_docs_urls(title='Ridecell Parking API')),
-    url(r'^schema/$', schema_view),
+    url(r'^schema/$', swagger_view),
     url(r'^', include('parking.urls'))
 
 ]
