@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rotating globe with SVG and D3.js</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+     <script type="text/javascript" src="{% static 'js/globe.js' %}"></script>
+</head>
+
+<body>
+
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+
+<section id="turnglobe">
+
+<div id="worldmap"></div>
+<p id="globesarecool">Map View Here</p>
+
+</section>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
